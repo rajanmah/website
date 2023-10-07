@@ -1,0 +1,145 @@
+* {
+   
+    font-family: 'Josefin Sans', sans-serif;
+    
+    }
+
+
+.nav {
+    background-color: gray;
+    width: 200px;
+    height: 100vh;
+    margin-top:50px;
+    border:1px solid red;
+    margin-left:10px;
+    /* justify-content:fixed; */
+}
+/* .carousel-item {
+    width:300px;
+    height:200px;
+} */
+
+#mainbar {
+    display:flex;
+    
+}
+#carouselExample {
+    display:flex;
+    width:auto;
+   
+}
+.container {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+.carousel-inner {
+    margin-top:50px
+}
+.carousel, .card {
+    margin-left:250px;
+    display:flex;
+}
+#card {
+    margin-left:250px;
+    display:flex;
+    margin-top:40px
+    
+}
+
+
+
+/* *{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} */
+
+body{
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+    background: rgb(129, 187, 221);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100vh;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    margin-top:50px;
+}
+.nlink-sidebar:hover {
+    background-color:rgb(159, 159, 206)
+
+}
+
+#membership {
+    text-shadow: 2px 2px 5px rgb(72, 173, 137);
+    margin-left:10px;
+    text-align:center;
+    margin-top:40vh;
+ 
+}
+
+
+#sidebar-banner {
+    width:200px;
+    /* justify-items:center; */
+    margin-left:10px;
+}
+
+.card-img-top{
+    width:100px;
+    height:100px;
+    object-fit:contain
+}
+.nav-item1 {
+    margin:0 10px 0 10px;
+}
+.card1, .card2, .card3, .card4 {
+    margin:10px 10px 50px 10px;
+     
+    }
+.card-title, .card-text {
+    text-align: center;
+    
+}
+.btn-primary {
+    justify-items:center;
+}
+
+.footer {
+    /* position:fixed;
+    left: 0;
+   bottom: 0;
+   height:60px;
+   width:100%; */
+  
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(43, 121, 133);
+   color: white;
+   text-align: center;
+
+
+}
+.social {  
+    /* margin: 2vh; */
+    /* width: 500px; */
+    /* height: 500px; */
+   /* background-color: white; */
+    /* padding: 5px; */
+    border-radius: 2%;
+    margin:0 100px 0 10px;
+    justify-items:center;
+    
+}
+
